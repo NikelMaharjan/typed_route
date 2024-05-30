@@ -41,8 +41,8 @@ class _HomeNavigationScreenState extends State<HomeNavigationScreen> {
             label: 'Profile',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
+            icon: Icon(Icons.ac_unit),
+            label: 'okkkkkkk',
           ),
         ],
       ),
