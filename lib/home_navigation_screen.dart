@@ -44,10 +44,6 @@ class _HomeNavigationScreenState extends State<HomeNavigationScreen> {
             icon: Icon(Icons.settings),
             label: 'Settings',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.night_shelter),
-            label: 'nikel',
-          ),
         ],
       ),
     );
@@ -63,7 +59,7 @@ class HomeScreen extends StatelessWidget {
       child: TextButton(
           onPressed: (){
 
-               print("asdasdsa");
+            HomeScreenDetailRoute().go(context);
 
           }, child: const Text("Next")
       ),
