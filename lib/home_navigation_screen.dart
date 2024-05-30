@@ -63,8 +63,7 @@ class HomeScreen extends StatelessWidget {
       child: TextButton(
           onPressed: (){
 
-            HomeScreenDetailRoute().go(context);
-
+               print("asdasdsa");
 
           }, child: const Text("Next")
       ),
