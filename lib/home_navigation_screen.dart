@@ -44,6 +44,14 @@ class _HomeNavigationScreenState extends State<HomeNavigationScreen> {
             icon: Icon(Icons.settings),
             label: 'Settings',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.night_shelter),
+            label: 'nikel',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.night_shelter),
+            label: 'nikel',
+          ),
         ],
       ),
     );
