@@ -44,6 +44,10 @@ class _HomeNavigationScreenState extends State<HomeNavigationScreen> {
             icon: Icon(Icons.settings),
             label: 'Settings',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: 'ok',
+          ),
         ],
       ),
     );
